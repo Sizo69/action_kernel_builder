@@ -18,7 +18,7 @@ on:
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'gki_defconfig vendor/mondrian.config'
+        default: 'gki_defconfig vendor/mondrian_defconfig'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
