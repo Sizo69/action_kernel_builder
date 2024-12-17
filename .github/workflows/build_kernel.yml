@@ -6,19 +6,19 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/Sizo69/kernel_xiaomi_sm8250.git'
+        default: 'https://github.com/Sizo69/kernel_xiaomi_sm8475.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'magic'
+        default: 'baalam'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
-        default: 'Magic'
+        default: 'Baalam'
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'alioth_defconfig vendor/xiaomi/sm8250-common.config'
+        default: 'gki_defconfig vendor/mondrian_defconfig'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
