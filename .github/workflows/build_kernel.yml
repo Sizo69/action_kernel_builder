@@ -6,19 +6,19 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/Sizo69/kernel_xiaomi_sm8475.git'
+        default: 'https://github.com/Sizo69/android_kernel_xiaomi_sm8150.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'baalam'
+        default: '15.0'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
-        default: 'Baalam'
+        default: 'Perf'
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'gki_defconfig vendor/mondrian_defconfig'
+        default: 'vendor/sm8150-perf_defconfig'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
