@@ -6,15 +6,15 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/Sizo69/RK-SM8250.git'
+        default: 'https://github.com/Sizo69/kernel_xiaomi_sm8250.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'main'
+        default: 'magictime-miui'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
-        default: 'RK 16.0'
+        default: 'Magictime'
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
