@@ -6,19 +6,19 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/Sizo69/kernel_xiaomi_sm8250.git'
+        default: 'https://github.com/Sizo69/RK-SM8250.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'magictime-miui'
+        default: 'ksu test'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
-        default: 'Magictime'
+        default: Xyvra'
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'alioth_defconfig vendor/kona_defconfig'
+        default: 'alioth_defconfig'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
